@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="description" content="...">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <img class="mainvisual" src="img/mainvisual.jpg" alt="">
+    <h1><a href=""><img class="logo" src="img/logo.svg" alt=""></a></h1>
+    <ul class="nav">
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#location">LOCATION</a></li>
+    </ul>
+  </header>
+
+
+  <main>
+    <!-- section menu -->
+    <section id="menu" class="menu section">
+      <div class="fixed-bg menu__img">
+        <h2 class="section-title">MENU</h2>
+      </div>
+
+      <div class="menu-container wrapper">
+        <div class="menu-left menu-item">
+          <h3 class="content-title">COFFEE</h3>
+
+          <dl class="drink">
+            <dt>ブレンドコーヒー</dt>
+            <dd>¥500</dd>
+            <dt>アメリカーノ</dt>
+            <dd>¥500</dd>
+            <dt>カフェラテ</dt>
+            <dd>¥550</dd>
+            <dt>カプチーノ</dt>
+            <dd>¥550</dd>
+            <dt>エスプレッソ</dt>
+            <dd>¥450</dd>
+            <dt>アイスコーヒー</dt>
+            <dd>¥500</dd>
+            <dt>カフェモカ</dt>
+            <dd>¥600</dd>
+            <dt>キャラメルラテ</dt>
+            <dd>¥600</dd>
+            <dt>デカフェコーヒー</dt>
+            <dd>¥500</dd>
+            <dt>フラットホワイト</dt>
+            <dd>¥550</dd>
+          </dl>
+        </div>
+
+        <div class="menu-right menu-item ">
+          <h3 class="content-title">FOOD</h3>
+          <dl class="food">
+            <dt>トーストセット</dt>
+            <dd>¥700</dd>
+            <dt>サンドイッチ</dt>
+            <dd>¥800</dd>
+            <dt>チーズケーキ</dt>
+            <dd>¥600</dd>
+          </dl>
+
+          <h3 class="content-title">OTHER</h3>
+          <dl>
+            <dt>オレンジジュース</dt>
+            <dd>¥400</dd>
+            <dt>アップルジュース</dt>
+            <dd>¥400</dd>
+            <dt>ミネラルウォーター</dt>
+            <dd>¥300</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- section about -->
+    <section id="about" class="about section">
+      <div class="about__img fixed-bg">
+        <h2 class="section-title">ABOUT</h2>
+      </div>
+
+      <div class="about__content wrapper">
+        <h3 class="content__title">COFFEE</h3>
+
+        <div class="about__text">
+          <p>「COFFEE」は、名古屋市中区橘にある小さなカフェです。</p>
+          <p>こだわりの自家焙煎コーヒーと、手作りのスイーツや軽食をご用意しています。</p>
+          <p>落ち着いた空間で、ゆったりとした時間をお過ごしください。</p>
+          <p>コーヒー豆は厳選したものを使用し、毎日丁寧に焙煎しています。</p>
+          <p>お一人様でも、ご友人やご家族とでも、ぜひお気軽にお立ち寄りください。</p>
+        </div>
+
+        <a class="read-more" href=""><span>Read More</span></a>
+      </div>
+    </section>
+
+
+    <!-- section location -->
+    <section id="location" class="location section">
+      <div class="location__img fixed-bg">
+        <h2 class="section-title">LOCATION</h2>
+      </div>
+
+      <div class="location-content wrapper">
+        <h3 class="content-title">OUR STORE</h3>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3261.4712453193465!2d136.88024646167318!3d35.16980547264291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5ZCN5Y-k5bGL6aeF!5e0!3m2!1sja!2sjp!4v1750917913985!5m2!1sja!2sjp"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <ul class="location__list">
+          <li class="location__item address">愛知県名古屋市中村区名駅</li>
+          <li class="location__item open">Open 7 days a Week<br>
+            9:00am to 10:00pm</li>
+          <li class="location__item tel">Tel : 052-123-4567</li>
+
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><small>&copy;COFFEE</small></p>
+  </footer>
+
+</body>
+
+</html>
